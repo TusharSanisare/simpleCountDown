@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;700&family=Montserrat:ital,wght@0,300;0,500;0,700;1,400&family=Poppins:wght@200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: Montserrat;
+}
+
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(2, 71, 71);
+    background: linear-gradient(to right top,rgb(2, 71, 71),rgb(53, 1, 61));
+
+    
+}
+
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+
+}
+
+h2{
+    margin: 20px;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+}
+p{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+
+.col{
+    width: 60%;
+    height: 20%;
+    padding: 20px;
+    margin: 20px auto;
+
+    display: flex;
+    text-align: center;
+    color: white;
+}
+
+.col div{
+    margin: 0px auto;
+}
+
+
+input{
+    border-radius: 25px;
+    border-style: none;
+    height: 70%;
+    width: 80%;
+    box-shadow: 2px 2px 50px rgba(255, 255, 255, 0.256);
+
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+
+
+
+@media (width<570px) {
+    h2{
+        margin: 10px;
+        font-size: 2rem;
+        color: white;
+        text-align: center;
+    }
+    p{
+        font-size: 1.5rem;
+        color: white;
+        text-align: center;
+    }
+    input{
+        border-radius: 15px;
+        border-style: none;
+        height: 50%;
+        width: 60%;
+        box-shadow: 2px 2px 50px rgba(255, 255, 255, 0.256);
+    
+        text-align: center;
+        font-size: 10px;
+        font-weight: 700;
+    }
+    .col{
+        width: 60%;
+        height: 20%;
+        padding: 10px;
+        margin: 10px auto;
+    
+        display: flex;
+        text-align: center;
+        color: white;
+    }
+    .col div{
+        margin: 0px auto;
+        font-size: 10px;
+    }
+}
+
+
+@media (width<420px) {
+    h2{
+        margin: 5px;
+        font-size: 1rem;
+        color: white;
+        text-align: center;
+    }
+    p{
+        font-size: 1rem;
+        color: white;
+        text-align: center;
+    }
+    input{
+        border-radius: 10px;
+        border-style: none;
+        height: 30%;
+        width: 40%;
+        box-shadow: 2px 2px 50px rgba(255, 255, 255, 0.256);
+    
+        text-align: center;
+        font-size: 5px;
+        font-weight: 700;
+    }
+    .col{
+        width: 60%;
+        height: 20%;
+        padding: 5px;
+        margin: 5px auto;
+    
+        display: flex;
+        text-align: center;
+        color: white;
+    }
+    .col div{
+        margin: 0px auto;
+        font-size: 5px;
+    }
+}
